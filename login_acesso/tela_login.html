@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+
+        body{
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            font-family: Tahoma;
+        }
+
+        header{
+            padding: 2rem 0rem;
+            background-color: #00004d;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 6rem;
+        }
+
+        form{
+            background-color: #181818;
+            color: #ffffff;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            padding: 3rem;
+        }
+
+        label{
+            padding-bottom: 6px;
+        }
+
+        .camp-form{
+            width: 340px;
+            height: 32px;
+            border-radius: 4px;
+            margin-bottom: 26px;
+        }
+
+        .btn-acessar{
+            background-color: #004100;
+            color: #ffffff;
+            height: 32px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        footer{
+            padding: 2rem 0rem;
+            background-color: #00004d;
+            color: #ffffff;
+            text-align: center;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Faça seu Login de Acesso aqui:</h2>
+    </header>
+
+    <main>
+        <form>
+            <label>Digite seu E-mail:</label>
+            <input type="email" name="email" placeholder="Digite aqui..." class="camp-form">
+
+            <label>Digite sua Senha:</label>
+            <input type="password" name="senha" placeholder="Digite aqui..." class="camp-form">
+
+            <button type="submit" class="btn-acessar">Acessar</button>
+        </form>
+    </main>
+
+    <footer>    
+        <p>Curso de Desenvolvimento Web Completo.</p>
+    </footer>
+</body>
+</html>

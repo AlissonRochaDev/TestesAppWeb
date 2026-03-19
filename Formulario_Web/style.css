@@ -1,0 +1,79 @@
+header{
+    padding: 26px 0px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 42px;
+}
+
+#page-home{
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Tahoma;
+}
+
+#container{
+    background-color: #c5c5c5;
+}
+
+#end{
+    padding: 16px 0px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center; 
+    font-size: 9px;
+}
+
+.camp-form{
+    height: 35px;
+    margin-bottom: 18px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.btnAcessar{
+    width: 90px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #0000ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btnAcessar:hover{
+    background-color: #0000b2;
+}
+
+.btnCadastrar{
+    width: 90px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #00a128;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btnCadastrar:hover{
+    background-color: #00671a;
+}
+
+/* Função Nativa CSS para Responsividade */
+@media screen and (min-width: 580px){
+    .form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

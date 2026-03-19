@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de Acesso</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            font-family: Tahoma;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000000;
+        }
+
+        form{
+            padding: 32px;
+            background-color: #c5c5c5;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            width: 520px;
+        }
+
+        input{
+            height: 35px;
+            margin-bottom: 26px;
+            outline: none;
+            border: none;
+            border-radius: 4px;
+        }
+
+        label{
+            margin-bottom: 8px;
+        }
+
+        .btnAcessar{
+            width: 100px;
+            height: 35px;
+            margin-bottom: 26px;
+            outline: none;
+            border: none;
+            border-radius: 4px;
+            background-color: #006400;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        .btnAcessar:hover{
+            background-color: #008200;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label>Digite seu E-mail:</label>
+        <input type="email" name="email" placeholder="Digite aqui...">
+        
+        <label>Digite sua Senha:</label>
+        <input type="password" name="senha" placeholder="Digite aqui...">
+
+        <button name="btnAcessar" class="btnAcessar">Acessar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- Código CSS de Estruturação e Estética do Conteúdo HTML! -->
+    <style>
+
+        body{
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            font-family: Tahoma;
+        }
+
+        header{
+            padding: 36px 0px;
+            background-color: #171717;
+            color: #ffffff;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        main{
+            padding: 150px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form{
+            background-color: #090909;
+            color: #ffffff;
+            padding: 60px;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label{
+            margin-bottom: 6px;
+        }
+
+        .camp-form{
+            width: 240px;
+            height: 32px;
+            border-radius: 4px;
+            margin-bottom: 36px;
+        }
+
+        .btn-acessar{
+            background-color: #002200;
+            color: #ffffff;
+            height: 32px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        footer{
+            padding: 26px 0px;
+            background-color: #171717;
+            color: #ffffff;
+            text-align: center;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Todo comando HTML chamamos de TAG! -->
+    <header>
+        <p>Faça seu Login de acesso aqui:</p>
+    </header>
+
+    <main>
+        <form>
+            <label>Digite seu E-mail:</label>
+            <input type="email" placeholder="Digite aqui" class="camp-form">
+
+            <label>Digite sua Senha:</label>
+            <input type="password" placeholder="Digite aqui" class="camp-form">
+
+            <button type="submit" class="btn-acessar">Acessar</button>
+        </form>
+    </main>
+
+    <footer>    
+        <p>Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

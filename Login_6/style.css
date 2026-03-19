@@ -1,0 +1,62 @@
+body{
+    /* Resetando as medidas de margem interna e externa. */
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Tahoma;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000042;
+}
+
+.box-form{
+    width: 35%;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 0px;
+    font-size: 18px;
+}
+
+form{
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 6px;
+}
+
+input{
+    width: 365px;
+    height: 34px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding-left: 4px;
+    margin-bottom: 38px;
+}
+
+.btn-acessar{
+    height: 32px;
+    background-color: #006a00;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-acessar:hover{
+    background-color: #008d00;
+}

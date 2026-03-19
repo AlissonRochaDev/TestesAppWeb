@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <!-- TAG Style possibilita desenvolvimento em Linguagem CSS. -->
+    <style>
+        body{
+            font-family: Tahoma;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        input{
+            width: 325px;
+            height: 30px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }
+
+        button{
+            width: 65px;
+            height: 30px;
+            border: none;
+            border-radius: 4px;
+            background-color: #0000ff;
+            color: #ffffff;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Todo comando HTML é chamado de TAG. -->
+    <h1>Faça seu Login de acesso aqui:</h1>
+
+    <form action="formulario.html" method="get">
+        <label>Digite seu Nome:</label>
+        <input type="text" name="nome" placeholder="Digite aqui...">
+
+        <label>Digite sua Senha:</label>
+        <input type="password" name="senha" placeholder="Digite aqui...">
+
+        <button  name="btnEnviar">Enviar</button>
+    </form>
+</body>
+</html>

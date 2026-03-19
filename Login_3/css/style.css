@@ -1,0 +1,59 @@
+body{
+    /* padding - Margem interna. */
+    /* margin - Margem externa. */
+
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Tahoma;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #6a9bff;
+    background: linear-gradient(145deg, #6a9bff 20%, #630057 94%); 
+}
+
+label{
+    margin-bottom: 6px;
+}
+
+#conteudo{
+    /* width: 65%; */
+    background-color: #4a4aff;
+    color: #ffffff;
+    padding: 28px;
+    border-radius: 8px;
+    box-shadow: 4px 2px 2px #272727;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.camp-form{
+    width: 320px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding-left: 6px;
+    margin-bottom: 32px;
+}
+
+.btnAcessar{
+    width: 100px;
+    height: 35px;
+    background-color: #000074;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btnAcessar:hover{
+    background-color: #034d00;
+}

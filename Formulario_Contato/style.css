@@ -1,0 +1,43 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #cacaca;
+    display: grid;
+    justify-content: center;
+}
+
+form{
+    width: 400px;
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campFormMsg{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 120px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.campForm{
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.btnEnviar{
+    width: 100px;
+    background-color: #004c00;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.btnEnviar:hover{
+    background-color: #006700;
+}

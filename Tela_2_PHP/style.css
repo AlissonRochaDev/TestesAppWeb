@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #585858;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.img{
+    width: 100px;
+    border-radius: 12px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    width: 480px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 34px;
+}
+
+.btn{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: #008000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #005300;
+}
+
+.googleMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#endPage{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 65px 0px;
+}

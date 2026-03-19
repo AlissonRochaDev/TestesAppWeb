@@ -1,0 +1,64 @@
+body{
+    /* padding: Margem interna de todo elemento HTML. */
+    /* margin: Margem externa de todo elemento HTML. */
+    /* border: margem de todo elemento HTML. */
+
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Tahoma;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background: #6a9bff;
+    background: linear-gradient(347deg, rgba(106,155,255,1) 14%, rgba(0,0,0,0.11078427953212533) 79%); 
+}
+
+form{
+    background-color: #373737;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 26px;
+    text-align: center;
+}
+
+.box-form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label{
+    margin-bottom: 6px;
+}
+
+.camp-login{
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 34px;
+}
+
+.btn-login{
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #00006b;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.btn-login:hover{
+    background-color: #0000e1;
+}
+
+@media screen and (max-width: 550px) {
+    form{
+        margin: 50px;
+    }
+}

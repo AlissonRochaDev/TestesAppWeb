@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de Acesso</title>
+    
+    <!-- Código CSS para estética e estruturação! -->
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            height: 100vh;
+            font-family: Tahoma;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgb(106,155,255);
+            background: linear-gradient(347deg, rgba(106,155,255,1) 28%, rgba(0,0,1,1) 73%); 
+        }
+
+        form{
+            background-color: #2c2c2c;
+            color: #ffffff;
+            padding: 64px;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label{
+            margin-bottom: 4px;
+        }
+
+        input{
+            width: 280px;
+            height: 32px;
+            outline: none;
+            border: none;
+            border-radius: 6px;
+            margin-bottom: 36px;
+        }
+
+        button{
+            height: 32px;
+            outline: none;
+            border: none;
+            border-radius: 6px;
+            background-color: #005a00;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #007500;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <label>Digite seu E-mail:</label>
+            <input type="email" placeholder="Digite aqui...">
+
+            <label>Digite sua Senha:</label>
+            <input type="password" placeholder="Digite aqui...">
+
+            <button class="btnAcessar">Acessar</button>
+        </form>
+    </div>
+</body>
+</html>

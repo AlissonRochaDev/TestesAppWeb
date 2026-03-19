@@ -1,0 +1,70 @@
+body{
+
+    /* padding: Margem interna de um elemento HTML. */
+    /* margin: Margem externa de um elemento HTML. */
+    /* border: Borda de um elemento HTML. */
+
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+h1{
+    margin: 0px;
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+
+.box-form{
+    width: 30%;
+    background-color: #3c3c3c;
+    color: #ffffff;
+    padding: 38px;
+    border-radius: 12px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 12px;
+    font-style: italic;
+}
+
+label:hover{
+    color: #00bc32;
+}
+
+input{
+    height: 36px;
+    padding-left: 4px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.btnAcessar{
+    height: 38px;
+    border: none;
+    border-radius: 4px;
+    background-color: #001cd4;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btnAcessar:hover{
+    background-color: #005918;
+}
